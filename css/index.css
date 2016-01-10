@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/**
+ * @authors \alihanniba\
+ * @email   \alihanniba@gmail.com\
+ * @date    2016-01-05 20:17:42
+ * @version \alihanniba\
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+header{
+    background: url(../img/bg@2x.png);
+    background-size: 100% 100%;
+    height: 625px;
+    width: 100%;
+    display: inline-block;
+}
+#quotation{
+    height: 68px;
+    background:rgba(96,90,90,.39);
+    border-bottom: 1px solid #979797;
+    line-height: 68px;
+    padding-left: 68px;
+    font-size: 24px;
+    color: #6ac6f7;
+}
+#moddle_photo{
+    height: 328px;
+    width: 100%;
+    display: inline-block;
+}
+#moddle_photo img{
+    height: 235px;
+    width: 235px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 48.5px;
+}
+#button_area{
+    height: 225px;
+    width: 100%;
+    background: rgba(75,76,80,.53);
+    display: inline-block;
+}
+#two_button{
+    height: 116px;
+    width: 582px;
+    margin: 0 auto;
+    margin-top: 56.5px;
+    display: block;
+
+}
+#two_button button{
+    height: 116px;
+    width: 213px;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(75,76,80,.53);
+    border:1px solid #979797;
+    font-size: 48px;
+    color: #46433c;
+}
+#two_button button:hover{
+    color: #6ac6f7;
+    border:1px solid #6ac6f7;
+    cursor: pointer;
+}
+#two_button button:nth-child(1){
+    float: left;
+}
+#two_button button:nth-child(2){
+    float: right;
+}
+.about_me{
+    height: 490px;
+    width: 100%;
+    color: #fff;
+    display: inline-block;
+}
+
+
+
+

@@ -32,9 +32,9 @@
         </div>
         <p class="description">I’m a coder</p>
         <div class="social_platform">
-            <img src="img/icon-share-wechat@2x.png" alt="微信">
-            <img src="img/icon-share-weibo@2x.png" alt="微博">
-            <img src="img/github@2x.png" alt="github">
+            <img src="img/icon-share-wechat@2x.png" alt="微信" onclick="wechat('block','hidden');">
+            <img src="img/icon-share-weibo@2x.png" alt="微博"  onclick="weibo();">
+            <img src="img/github@2x.png" alt="github" onclick="github();">
         </div>
     </div>
     <div class="about_me my_skills">
@@ -118,12 +118,15 @@
             <img src="img/line-2@2x.png" alt="">
         </div>
         <div id="contact_me_info">
-            <p><span>WEB</span>:<a href="https://www.alihanniba.com/">https://www.alihanniba.com/</a></p>
+            <p><span>BLOG</span>:<a href="https://www.alihanniba.com/">https://www.alihanniba.com/</a></p>
             <p><span>GITHUB</span>:<a href="https://github.com/alihanniba">https://github.com/alihanniba</a></p>
             <p><span>EMAIL</span>:<a href="#">alihanniba@gmail.com</a></p>
         </div>
         <p id="alihanniba">@alihanniba</p>
     </div>
+    <div id="wechat_shadow" onclick="wechat('none','scroll');"></div>
+    <img src="img/wechat.jpg" alt="微信" id="wechat_qrcode">
+
     <script src="js/swiper.min.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
@@ -134,6 +137,17 @@
             parallax: true,
             speed: 600,
         });
+        function weibo(){
+            window.location.href = "http://weibo.com/u/2691586145/home?topnav=1&wvr=6";
+        }
+        function github(){
+            window.location.href = "https://github.com/alihanniba";
+        }
+        function wechat(d,o){
+            document.getElementById('wechat_shadow').style.display = d;
+            document.getElementById('wechat_qrcode').style.display = d;
+            document.documentElement.style.overflow=o;
+        }
     </script>
 </body>
 </html>

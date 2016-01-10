@@ -288,6 +288,28 @@ header{
     text-align: center;
     line-height: 50px;
 }
+#wechat_shadow{
+    height: 2000px;
+    width: 100%;
+    background: #000;
+    z-index: 9998;
+    position:absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    display: none;
+}
+#wechat_qrcode{
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    z-index: 9999;
+    display: none;
 
+}
 
 

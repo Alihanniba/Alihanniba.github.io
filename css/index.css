@@ -49,7 +49,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+html,body{
+    min-width: 1200px;
+}
 
 header{
     background: url(../img/bg@2x.png);
@@ -176,12 +178,116 @@ header{
 .about_me .social_platform img:nth-child(3){
     margin-right: 0px;
 }
-
-
-
-
-
-
+.my_skills{
+    background: #c2c2c2;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+.my_skills .all_skills{
+    width: 1150px;
+    height: 216px;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+.my_skills .all_skills div{
+    height: 216px;
+    width: 145px;
+    margin-right: 52px;
+    display: inline-block;
+}
+.my_skills .all_skills div:nth-child(6){
+    margin-right: 0;
+}
+.my_skills .all_skills div img{
+    height: 145px;
+    width: 145px;
+}
+.my_skills .all_skills div p{
+    width: 100%;
+    height: 28px;
+    margin-top: 43px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #050505;
+    text-align: center;
+}
+.my_works{
+    height: 240px;
+}
+.swiper-container {
+    width: 100%;
+    height: 600px;
+    background: #000;
+}
+.swiper-slide {
+    font-size: 18px;
+    color:#fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-image:url(../img/dancer.jpg);
+    -webkit-filter: blur(5px);
+}
+.swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+}
+.swiper-slide .subtitle {
+    font-size: 21px;
+    margin-top: 20px;
+}
+.swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+.contact_me{
+    background: url(../img/contact.png) repeat;
+}
+#contact_me_info{
+    height: 200px;
+    width: 500px;
+    margin-left: 68px;
+    margin-top: 20px;
+}
+#contact_me_info p{
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    color: #000;
+}
+#contact_me_info p span{
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 50px;
+}
+#contact_me_info p a{
+    margin-left: 50px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#alihanniba{
+    width: 100%;
+    height: 50px;
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+    line-height: 50px;
+}
 
 
 

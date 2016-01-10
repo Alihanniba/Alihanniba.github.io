@@ -121,6 +121,66 @@ header{
     color: #fff;
     display: inline-block;
 }
+.about_me .info_about_me{
+    height: 80px;
+    width: 300px;
+    display: block;
+    margin:0 auto;
+    margin-top: 46px;
+}
+.about_me .signed{
+    height: 44px;
+    width: 584px;
+    margin: 0 auto ;
+    margin-top: 15px;
+}
+.about_me .signed img:nth-child(1),
+.about_me .signed img:nth-child(3){
+    height: 5px;
+    width: 149px;
+    margin-top: 19.5px;
+}
+.about_me .signed img:nth-child(1){
+    float: left;
+}
+.about_me .signed img:nth-child(2){
+    margin: 0 auto;
+    height: 44px;
+    width: 206px;
+    margin-left: 40px;
+}
+.about_me .signed img:nth-child(3){
+    float: right;
+}
+.about_me .description{
+    height: 44px;
+    width: 100%;
+    font-size: 36px;
+    line-height: 44px;
+    color: #050505;
+    text-align: center;
+    margin-top: 25px;
+}
+.about_me .social_platform{
+    height: 100px;
+    width: 424px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.about_me .social_platform img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 58px;
+}
+.about_me .social_platform img:nth-child(3){
+    margin-right: 0px;
+}
+
+
+
+
+
 
 
 

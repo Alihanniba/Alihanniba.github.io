@@ -230,8 +230,8 @@ dl {
   overflow: hidden;
 }
 .header-qrcode .qrcode-img {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
 }
 header {
   overflow-y: hidden;
@@ -385,6 +385,21 @@ header a:active {
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
   content: "\f1d7";
+  width: 28px;
+  margin-left: -28px;
+  display: inline-block;
+}
+.contact-phone {
+  padding-left: 28px;
+}
+.contact-phone::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  content: "\f095";
   width: 28px;
   margin-left: -28px;
   display: inline-block;
